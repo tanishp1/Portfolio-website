@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanish Pawar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">TP</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Tanish Pawar</h1>
+      <h2 class="hero-title typed-text"></h2>
+      <p class="hero-sub">I build clean, scalable, and user-friendly web experiences.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="avatar-ring">
+        <div class="tech-avatar">
+          <div class="tech-icon-grid">
+            <div class="tech-icon" style="--c:#61dafb"><i class="fab fa-react"></i></div>
+            <div class="tech-icon" style="--c:#68a063"><i class="fab fa-node-js"></i></div>
+            <div class="tech-icon" style="--c:#f7df1e"><i class="fab fa-js"></i></div>
+            <div class="tech-icon" style="--c:#e34f26"><i class="fab fa-html5"></i></div>
+            <div class="tech-icon" style="--c:#264de4"><i class="fab fa-css3-alt"></i></div>
+            <div class="tech-icon" style="--c:#4db33d"><i class="fas fa-database"></i></div>
+            <div class="tech-icon" style="--c:#f05032"><i class="fab fa-git-alt"></i></div>
+            <div class="tech-icon" style="--c:#6c63ff"><i class="fas fa-code"></i></div>
+            <div class="tech-icon" style="--c:#fff"><i class="fas fa-terminal"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I am a Full Stack Developer with 2 years of experience. I have built multiple projects covering both frontend and backend development, and I truly enjoy the process of coding and bringing ideas to life.</p>
+        <p>I have strong knowledge of React, Node.js, and MongoDB, which I use to build modern, scalable, and efficient web applications from end to end.</p>
+        <a href="#" class="btn btn-primary" download>Download CV <i class="fas fa-download"></i></a>
+      </div>
+      <div class="about-cards">
+        <div class="info-card"><i class="fas fa-code"></i><h3>50+</h3><p>Projects Done</p></div>
+        <div class="info-card"><i class="fas fa-users"></i><h3>30+</h3><p>Happy Clients</p></div>
+        <div class="info-card"><i class="fas fa-award"></i><h3>5+</h3><p>Awards Won</p></div>
+        <div class="info-card"><i class="fas fa-coffee"></i><h3>∞</h3><p>Cups of Coffee</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill-bars">
+          <div class="skill"><span>HTML / CSS</span><div class="bar"><div class="fill" data-width="95"></div></div></div>
+          <div class="skill"><span>JavaScript</span><div class="bar"><div class="fill" data-width="88"></div></div></div>
+          <div class="skill"><span>React</span><div class="bar"><div class="fill" data-width="82"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skill-bars">
+          <div class="skill"><span>Node.js</span><div class="bar"><div class="fill" data-width="80"></div></div></div>
+          <div class="skill"><span>Python</span><div class="bar"><div class="fill" data-width="75"></div></div></div>
+          <div class="skill"><span>SQL / NoSQL</span><div class="bar"><div class="fill" data-width="78"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Cloud</h3>
+        <div class="skill-tags">
+          <span>Git</span><span>Docker</span><span>AWS</span><span>Figma</span>
+          <span>Linux</span><span>CI/CD</span><span>REST APIs</span><span>GraphQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <div class="mern-badge"><i class="fas fa-layer-group"></i> MERN Stack Projects</div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img ecommerce-platform-image" style="background:#edf7ff">
+          <img src="./assets/ecommerce-platform.png" alt="E-Commerce Platform project preview" />
+        </div>
+        <div class="project-info">
+          <h3>E-Commerce Platform</h3>
+          <p>Full-stack shopping app with product listings, cart, user auth, and Stripe payment integration.</p>
+          <div class="project-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <div class="project-links">
+            <a href="https://github.com/tanishp1/Ecommerce-platform" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="https://ecommerce-platform-3ppn.vercel.app" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img task-management-image" style="background:#f4f7ff">
+          <img src="./assets/task-management.png" alt="Task Management project preview" />
+        </div>
+        <div class="project-info">
+          <h3>Task Manager App</h3>
+          <p>Kanban-style task board with drag-and-drop, user roles, and real-time updates via Socket.io.</p>
+          <div class="project-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <div class="project-links">
+            <a href="https://github.com/tanishp1/Task-manger-1" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="https://task-manger-1-opal.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img" style="background:#63ff9022"><i class="fas fa-comments fa-3x"></i></div>
+        <div class="project-info">
+          <h3>Real-Time Chat App</h3>
+          <p>One-to-one and group chat application with JWT authentication and Socket.io messaging.</p>
+          <div class="project-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img" style="background:#ffdd6322"><i class="fas fa-blog fa-3x"></i></div>
+        <div class="project-info">
+          <h3>Blog Platform</h3>
+          <p>Full-featured blogging site with rich text editor, comments, likes, and admin dashboard.</p>
+          <div class="project-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img" style="background:#63d4ff22"><i class="fas fa-user-circle fa-3x"></i></div>
+        <div class="project-info">
+          <h3>Social Media App</h3>
+          <p>Instagram-like app with post uploads, follow system, likes, comments, and profile pages.</p>
+          <div class="project-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img" style="background:#c463ff22"><i class="fas fa-graduation-cap fa-3x"></i></div>
+        <div class="project-info">
+          <h3>Online Learning Portal</h3>
+          <p>Course management system with video lessons, quizzes, progress tracking, and role-based access.</p>
+          <div class="project-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><p>pawartanish73@example.com</p></div></div>
+        <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Phone</h4><p>+91 7276901993</p></div></div>
+        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Location</h4><p>Karad Maharashtra, India</p></div></div>
+        <div class="social-links">
+          <a href="https://github.com/tanishp1" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/tanish-pawar-1499403a7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" placeholder="Subject" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        <p class="form-success" id="formSuccess">Message sent! I'll get back to you soon.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & Built by <span>Tanish Pawar</span> &copy; <span id="year"></span></p>
+    <a href="#hero" class="back-top"><i class="fas fa-arrow-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
